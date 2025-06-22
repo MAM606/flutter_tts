@@ -1,5 +1,8 @@
 import 'dart:async';
 import 'dart:io' show Platform;
+library flutter_tts;
+
+export 'src/flutter_tts.dart';
 
 import 'package:flutter/services.dart';
 import 'package:flutter/foundation.dart' show kIsWeb;
